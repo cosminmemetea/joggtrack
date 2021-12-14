@@ -1,25 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2021-12-14T17:13:19.140Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="bbo6yUE56nQZBqSImVaz" version="15.9.6" type="github">
-  <diagram id="O4xh9DjlRFh3QeQqvQeD" name="Page-1">
-    <mxGraphModel dx="946" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="V4RSQ6ZsWab7dWuA-E1I-1" value="Routes" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="50" y="220" width="160" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="V4RSQ6ZsWab7dWuA-E1I-2" value="REST API Client" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="150" y="440" width="200" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="V4RSQ6ZsWab7dWuA-E1I-3" value="JoggTrack Web Application" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="V4RSQ6ZsWab7dWuA-E1I-2">
-          <mxGeometry x="20" y="40" width="160" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="V4RSQ6ZsWab7dWuA-E1I-4" value="JoggTrack iOS Application" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="V4RSQ6ZsWab7dWuA-E1I-2">
-          <mxGeometry x="20" y="70" width="160" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="V4RSQ6ZsWab7dWuA-E1I-5" value="JoggTrack Android Application" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="V4RSQ6ZsWab7dWuA-E1I-2">
-          <mxGeometry x="10" y="100" width="180" height="20" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram id="O4xh9DjlRFh3QeQqvQeD" name="Page-1">
+        <mxGraphModel dx="755" dy="709" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="V4RSQ6ZsWab7dWuA-E1I-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="309" y="149" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="204" y="149"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="Data {JSON format}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="13">
+                    <mxGeometry x="-0.0324" y="1" relative="1" as="geometry">
+                        <mxPoint x="10" y="-26" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="V4RSQ6ZsWab7dWuA-E1I-1" value="REST API Routes" style="swimlane;" parent="1" vertex="1">
+                    <mxGeometry x="84" y="259" width="160" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;div&gt;&lt;span&gt;Get&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Post&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Put&lt;/div&gt;&lt;div&gt;Delete&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="V4RSQ6ZsWab7dWuA-E1I-1">
+                    <mxGeometry x="10" y="31" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;entryX=0.25;entryY=0.015;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="V4RSQ6ZsWab7dWuA-E1I-2" target="V4RSQ6ZsWab7dWuA-E1I-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="241" y="42" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="124" y="50"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="Requests{GET/POST...}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="11">
+                    <mxGeometry x="0.0062" y="-2" relative="1" as="geometry">
+                        <mxPoint x="-3" y="33" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="V4RSQ6ZsWab7dWuA-E1I-2" value="REST API Client" style="swimlane;" parent="1" vertex="1">
+                    <mxGeometry x="308" width="159" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="V4RSQ6ZsWab7dWuA-E1I-3" value="JoggTrack Web&lt;br&gt;&amp;nbsp;Application" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="V4RSQ6ZsWab7dWuA-E1I-2" vertex="1">
+                    <mxGeometry x="33" y="42" width="93" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="V4RSQ6ZsWab7dWuA-E1I-4" value="JoggTrack iOS &lt;br&gt;Application" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="V4RSQ6ZsWab7dWuA-E1I-2" vertex="1">
+                    <mxGeometry x="35" y="90" width="89" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="V4RSQ6ZsWab7dWuA-E1I-5" value="JoggTrack Android&lt;br&gt;&amp;nbsp;Application" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="V4RSQ6ZsWab7dWuA-E1I-2" vertex="1">
+                    <mxGeometry x="24.5" y="137" width="110" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Validation Layer" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="521" y="259" width="187" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Validate Request&lt;br&gt;Validate Token for different roles&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="3">
+                    <mxGeometry x="6" y="44" width="181" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Controller" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="306" y="402" width="163" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Business Layer" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="303" y="647" width="169" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="900" width="175" height="110" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
