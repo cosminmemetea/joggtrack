@@ -1,3 +1,1 @@
-# REST API ENDPOINTS
-
-1. 
+# Jogg Track REST API
