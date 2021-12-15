@@ -133,7 +133,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="19" value="MongoDB" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="579" y="755" width="175" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" value="Request Validation" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="V4RSQ6ZsWab7dWuA-E1I-1">
