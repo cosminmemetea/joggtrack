@@ -1,9 +1,9 @@
 const express = require('express');
-const dotEnv = require('dotenv');
+const dotenv = require('dotenv');
 const cors = require('cors');
 const dbConnection = require('./database/connect')
 
-dotEnv.config();
+dotenv.config();
 
 const app = express();
 
@@ -14,6 +14,8 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({extended : true}));
 
+app.use('/api/v1/running', require('./routes/running_routes'));
+
 const middleware = (req, res, next) => {
     console.log("MiM");
     next();
@@ -21,7 +23,7 @@ const middleware = (req, res, next) => {
 app.use(middleware)
 
 app.get('/', (req,res,next) => {
-    res.send('HelloWekc');
+    res.send('Hello Runner');
 })
 
 const PORT = process.env.PORT || 3000;
